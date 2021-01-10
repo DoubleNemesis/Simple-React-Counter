@@ -1,0 +1,44 @@
+html {
+  margin: 0px;
+  padding: 0px;
+}
+.container {
+  font-family: sans-serif;
+  text-align: center;
+  color: rgb(61, 56, 61);
+  display: grid;
+  align-items: center;
+  height: 97vh;
+  margin: 0;
+}
+
+.mainBTN {
+  padding: 0.5em 1.5em;
+  font-weight: 700;
+  font-size: 1.3em;
+  background-image: linear-gradient(to right, limegreen, yellow);
+  border: 1px solid greenyellow;
+  border-radius: 0.5em;
+  box-shadow: 0.1em 0.1em #999;
+  box-sizing: border-box;
+  min-width: 5em;
+  display: block;
+  margin: 0 auto;
+  transition: min-width 0.5s;
+  cursor: pointer;
+}
+
+.mainBTN:nth-of-type(2n) {
+  margin-top: 0.5em;
+}
+
+.mainBTN:hover {
+  box-shadow: 0.2em 0.2em #999;
+  background-image: linear-gradient(to left, limegreen, yellow);
+  min-width: 5.5em;
+}
+.mainBTN:active {
+  box-shadow: unset;
+  background-image: linear-gradient(to right, limegreen, yellow);
+  min-width: 5em;
+}
